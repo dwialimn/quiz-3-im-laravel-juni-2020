@@ -81,7 +81,13 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Sanbercode
+                    <div class="row">
+                        Sanbercode
+                    </div>
+                    <div class="row">
+                        <img src="{{asset('sbadmin2/img/BlogERD.png')}}">
+                    </div>
+                    <a href="{{route('artikel')}}">Artikel</a>
                 </div>
 
                 <div class="links">
